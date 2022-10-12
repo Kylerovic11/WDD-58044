@@ -1,0 +1,24 @@
+<html>
+<body>
+<?php
+
+//Grade_Shit
+			echo "<br><br>";
+			$name = "Bitchass";
+			$grade = 59;
+			if ($grade >= 70) 
+			{
+				echo "Name: ".$name . "<br>Grade: ". $grade . ", you passed you fucking nigga <br>";
+			} 
+			elseif (($grade >=60) && ($grade <=69))
+			{
+				echo "Name: ".$name . "<br>Grade: ".$grade . ", get remedial exam you fucking nigga <br>";
+			}
+			else
+			{
+				echo "Name: ".$name . "<br>Grade: ".$grade . ", you failed you fucking nigga <br>";
+			}
+
+?>
+</body>
+</html>
